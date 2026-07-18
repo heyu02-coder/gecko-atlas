@@ -2,7 +2,16 @@
 
 ## Phase 6B 状态
 
-部署前整理和 GitHub 发布已完成，尚未连接 Vercel 或任何域名。
+部署前整理和 GitHub 发布已完成。
+
+## Phase 6C 进度
+
+- Vercel 项目 `gecko-atlas` 已创建
+- 全球生产地址：[gecko-atlas.vercel.app](https://gecko-atlas.vercel.app)
+- HTTPS、安全响应头、CSP、视频 Range 请求已在线验证
+- Edge / Chrome 桌面、平板、移动端线上回归通过
+- 3D 昆虫在三种视口均进入 `insect-cursor-ready`
+- GitHub 自动部署连接仍需在 Vercel 账号中添加 GitHub Login Connection
 
 ### 已完成
 

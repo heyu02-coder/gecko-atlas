@@ -30,6 +30,8 @@ async function assert(value, message) { if (!value) throw new Error(message); }
     const response = await page.goto(`${base}/index.html`, { waitUntil: "domcontentloaded" });
     await assert(response?.ok(), "homepage HTTP failure");
     await assert(await page.locator("#gecko-video").evaluate((video) => video.muted && !video.autoplay && !video.loop && !video.controls), "video attribute contract failed");
+    await page.waitForFunction(() => document.documentElement.classList.contains("insect-cursor-ready"), null, { timeout: 20000 });
+    await assert(await page.locator("canvas.insect-cursor").count() === 1, "3D insect cursor did not initialize");
     await page.locator("[data-search-open]").click();
     await page.locator(".search-overlay input").fill("体温");
     await assert(await page.locator(".search-results").getByText("体温管理").count(), "full-site search failed");
