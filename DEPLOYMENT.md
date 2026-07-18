@@ -1,8 +1,8 @@
 # GECKO ATLAS — 部署说明
 
-## Phase 6A 状态
+## Phase 6B 状态
 
-部署前整理已完成，尚未连接 GitHub、Vercel 或任何域名。
+部署前整理和 GitHub 发布已完成，尚未连接 Vercel 或任何域名。
 
 ### 已完成
 
@@ -13,6 +13,9 @@
 - 视频播放契约自动检查
 - Edge / Chrome 桌面、平板与移动端回归
 - 发布包体积审计
+- Public GitHub 仓库：[heyu02-coder/gecko-atlas](https://github.com/heyu02-coder/gecko-atlas)
+- `main` 作为默认生产源码分支
+- 完整源素材、旧捕食视频和 FBX 转换资产进入源码仓库
 
 ### 发布包
 
@@ -49,19 +52,18 @@ node tools/browser-smoke-test.js chrome
 
 预期结果：全部 PASS，无缺失资源、禁用的 `video.play()` 调用或控制台错误。
 
-## Phase 6B 前置条件
+## Phase 6C 前置条件
 
-进入 GitHub 阶段前需要用户确认：
+进入 Vercel 预览部署前需要确认：
 
-1. GitHub 账号或组织名称
-2. 仓库名，建议 `gecko-atlas`
-3. Public 或 Private；作品集建议 Public
-4. 是否保留旧捕食视频等源素材在 GitHub
-5. README 中是否公开作者姓名、联系方式和求职方向
+1. 使用 GitHub 账号 `heyu02-coder` 登录 Vercel
+2. 从 GitHub 导入 `gecko-atlas`
+3. Framework Preset 选择 `Other`
+4. 保持项目根目录，不设置构建命令
+5. 生成 `.vercel.app` 预览地址后复测响应头、视频 Range 和跨地区访问
 
 ## 尚未执行
 
-- GitHub 仓库创建与推送
 - Vercel 项目导入
 - `.vercel.app` 预览部署
 - 自定义域名购买与 DNS

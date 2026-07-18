@@ -9,6 +9,7 @@
 - 作者：HEYU
 - 邮箱：[2212187935@qq.com](mailto:2212187935@qq.com)
 - GitHub：[@heyu02-coder](https://github.com/heyu02-coder)
+- 项目仓库：[heyu02-coder/gecko-atlas](https://github.com/heyu02-coder/gecko-atlas)
 
 ## 在线内容
 
