@@ -39,7 +39,7 @@
 - `X-Frame-Options: DENY`
 - 禁用摄像头、麦克风与地理位置权限
 - Content Security Policy
-- CSP 仅额外允许内嵌 GLB 的 `data:` 读取和 Meshopt 所需的 `wasm-unsafe-eval`
+- CSP 仅额外允许内嵌 GLB 的 `data:`、临时纹理 `blob:` 读取和 Meshopt 所需的 `wasm-unsafe-eval`
 - 图片、视频和模型资源的短期缓存与 stale-while-revalidate
 - JS/CSS 一小时缓存并要求重新验证
 
