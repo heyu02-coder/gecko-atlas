@@ -11,7 +11,7 @@
 - HTTPS、安全响应头、CSP、视频 Range 请求已在线验证
 - Edge / Chrome 桌面、平板、移动端线上回归通过
 - 3D 昆虫在三种视口均进入 `insect-cursor-ready`
-- GitHub 自动部署连接仍需在 Vercel 账号中添加 GitHub Login Connection
+- GitHub App 已获得 `gecko-atlas` 权限，Vercel 项目已连接 `main`
 
 ### 已完成
 
