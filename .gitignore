@@ -1,0 +1,9 @@
+node_modules/
+.vercel/
+.review/
+.agents/
+.env
+.env.*
+*.log
+.DS_Store
+8367e5e25c8014d093e62621785060a9.png

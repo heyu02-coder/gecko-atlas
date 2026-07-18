@@ -1,0 +1,30 @@
+node_modules/
+.git/
+.agents/
+.review/
+.vercel/
+
+# Local development and portfolio documentation
+tools/
+server.py
+启动网页.cmd
+启动网页.ps1
+README.md
+CASE_STUDY.md
+TEST_MATRIX.md
+DEPLOYMENT.md
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+cursor.js
+
+# Source-only or superseded media; cursor.bundle.js embeds the GLB used at runtime.
+assets/insect-cursor.glb
+assets/gecko-attack.mp4
+8367e5e25c8014d093e62621785060a9.png
+
+# Local secrets and logs
+.env
+.env.*
+*.log
+.DS_Store

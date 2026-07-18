@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "esbuild cursor.js --bundle --format=iife --platform=browser --target=es2020 --minify --loader:.glb=dataurl --outfile=cursor.bundle.js",
+    "audit:deploy": "node tools/deployment-audit.js",
+    "test:browser:edge": "node tools/browser-smoke-test.js edge",
+    "test:browser:chrome": "node tools/browser-smoke-test.js chrome"
+  },
+  "dependencies": {
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.4.1",
+    "esbuild": "^0.28.1",
+    "fbx2gltf": "0.9.7-p1",
+    "ffmpeg-static": "^5.3.0"
+  }
+}

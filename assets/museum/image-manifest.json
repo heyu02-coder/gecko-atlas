@@ -1,0 +1,380 @@
+{
+  "generatedAt": "2026-07-18T16:06:36Z",
+  "source": "Wikimedia Commons",
+  "items": [
+    {
+      "id": "species-tokay-gecko",
+      "subject": "Gekko gecko",
+      "alt": "蛤蚧",
+      "fileTitle": "Tokay gecko (Gekko gecko) - Indonesia.jpg",
+      "author": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tokay_gecko_(Gekko_gecko)_-_Indonesia.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tokay_gecko_%28Gekko_gecko%29_-_Indonesia.jpg",
+      "desktop": "assets/museum/species/tokay-gecko/hero-1600.webp",
+      "mobile": "assets/museum/species/tokay-gecko/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-leopard-gecko",
+      "subject": "Eublepharis macularius",
+      "alt": "豹纹守宫",
+      "fileTitle": "EUBLEPHARIS-MACULARIUS Leopard-Gecko Leopardgecko 201705276007.jpg",
+      "author": "Christian von Faber-Castell",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:EUBLEPHARIS-MACULARIUS_Leopard-Gecko_Leopardgecko_201705276007.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/EUBLEPHARIS-MACULARIUS_Leopard-Gecko_Leopardgecko_201705276007.jpg",
+      "desktop": "assets/museum/species/leopard-gecko/hero-1600.webp",
+      "mobile": "assets/museum/species/leopard-gecko/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-crested-gecko",
+      "subject": "Correlophus ciliatus",
+      "alt": "睫角守宫",
+      "fileTitle": "Correlophus ciliatus 33606516.jpg",
+      "author": "Lennart Hudel",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Correlophus_ciliatus_33606516.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Correlophus_ciliatus_33606516.jpg",
+      "desktop": "assets/museum/species/crested-gecko/hero-1600.webp",
+      "mobile": "assets/museum/species/crested-gecko/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-blue-tongue",
+      "subject": "Tiliqua scincoides",
+      "alt": "蓝舌石龙子",
+      "fileTitle": "Eastern Blue Tongue (Tiliqua scincoides scincoides) (8563883807).jpg",
+      "author": "Matt from Melbourne, Australia",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eastern_Blue_Tongue_(Tiliqua_scincoides_scincoides)_(8563883807).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Eastern_Blue_Tongue_%28Tiliqua_scincoides_scincoides%29_%288563883807%29.jpg",
+      "desktop": "assets/museum/species/blue-tongue/hero-1600.webp",
+      "mobile": "assets/museum/species/blue-tongue/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-marine-iguana",
+      "subject": "Amblyrhynchus cristatus",
+      "alt": "海鬣蜥",
+      "fileTitle": "Iguana marina (Amblyrhynchus cristatus), Las Bachas, isla Santa Cruz, islas Galápagos, Ecuador, 2015-07-23, DD 33.jpg",
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Iguana_marina_(Amblyrhynchus_cristatus),_Las_Bachas,_isla_Santa_Cruz,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-23,_DD_33.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Iguana_marina_%28Amblyrhynchus_cristatus%29%2C_Las_Bachas%2C_isla_Santa_Cruz%2C_islas_Gal%C3%A1pagos%2C_Ecuador%2C_2015-07-23%2C_DD_33.jpg",
+      "desktop": "assets/museum/species/marine-iguana/hero-1600.webp",
+      "mobile": "assets/museum/species/marine-iguana/hero-800.webp",
+      "desktopSize": [
+        1600,
+        907
+      ],
+      "mobileSize": [
+        800,
+        453
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-panther-chameleon",
+      "subject": "Furcifer pardalis",
+      "alt": "豹纹变色龙",
+      "fileTitle": "Panther chameleon (Furcifer pardalis) male Montagne d’Ambre 3.jpg",
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panther_chameleon_(Furcifer_pardalis)_male_Montagne_d%E2%80%99Ambre_3.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Panther_chameleon_%28Furcifer_pardalis%29_male_Montagne_d%E2%80%99Ambre_3.jpg",
+      "desktop": "assets/museum/species/panther-chameleon/hero-1600.webp",
+      "mobile": "assets/museum/species/panther-chameleon/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "species-komodo-dragon",
+      "subject": "Varanus komodoensis",
+      "alt": "科莫多巨蜥",
+      "fileTitle": "Varanus komodoensis, Komodo Island, Indonesia, 20250822 1324 2788.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis,_Komodo_Island,_Indonesia,_20250822_1324_2788.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Varanus_komodoensis%2C_Komodo_Island%2C_Indonesia%2C_20250822_1324_2788.jpg",
+      "desktop": "assets/museum/species/komodo-dragon/hero-1600.webp",
+      "mobile": "assets/museum/species/komodo-dragon/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1028
+      ],
+      "mobileSize": [
+        800,
+        514
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "anatomy-gecko-feet",
+      "subject": "Gecko toe pads",
+      "alt": "壁虎脚趾吸附结构",
+      "fileTitle": "Starr-121219-1138-gecko feet-Uprange-Kahoolawe (24571479943).jpg",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 3.0 us",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Starr-121219-1138-gecko_feet-Uprange-Kahoolawe_(24571479943).jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Starr-121219-1138-gecko_feet-Uprange-Kahoolawe_%2824571479943%29.jpg",
+      "desktop": "assets/museum/anatomy/gecko-feet/hero-1600.webp",
+      "mobile": "assets/museum/anatomy/gecko-feet/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1200
+      ],
+      "mobileSize": [
+        800,
+        600
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "anatomy-lizard-tail",
+      "subject": "Lizard tail autotomy",
+      "alt": "蜥蜴尾部",
+      "fileTitle": "Long-Tailed Grass Lizard.jpg",
+      "author": "User:Bando26 (wp:en)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Long-Tailed_Grass_Lizard.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Long-Tailed_Grass_Lizard.jpg",
+      "desktop": "assets/museum/anatomy/lizard-tail/hero-1600.webp",
+      "mobile": "assets/museum/anatomy/lizard-tail/hero-800.webp",
+      "desktopSize": [
+        1600,
+        952
+      ],
+      "mobileSize": [
+        800,
+        476
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "anatomy-gecko-eye",
+      "subject": "Gecko eye",
+      "alt": "壁虎眼睛",
+      "fileTitle": "The eye of a crested gecko.jpg",
+      "author": "Gabriel Zanda",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_eye_of_a_crested_gecko.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_eye_of_a_crested_gecko.jpg",
+      "desktop": "assets/museum/anatomy/gecko-eye/hero-1600.webp",
+      "mobile": "assets/museum/anatomy/gecko-eye/hero-800.webp",
+      "desktopSize": [
+        954,
+        2016
+      ],
+      "mobileSize": [
+        800,
+        1691
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "anatomy-chameleon-skin",
+      "subject": "Chameleon skin",
+      "alt": "变色龙皮肤与鳞片",
+      "fileTitle": "Panther chameleon closeup.jpg",
+      "author": "Maubreville",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panther_chameleon_closeup.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Panther_chameleon_closeup.jpg",
+      "desktop": "assets/museum/anatomy/chameleon-skin/hero-1600.webp",
+      "mobile": "assets/museum/anatomy/chameleon-skin/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1071
+      ],
+      "mobileSize": [
+        800,
+        535
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "anatomy-chameleon-tongue",
+      "subject": "Chameleon tongue",
+      "alt": "变色龙伸舌捕食",
+      "fileTitle": "Chameleons Tongue.GIF",
+      "author": "SurreyJohn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chameleons_Tongue.GIF",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chameleons_Tongue.GIF",
+      "desktop": "assets/museum/anatomy/chameleon-tongue/hero-1600.webp",
+      "mobile": "assets/museum/anatomy/chameleon-tongue/hero-800.webp",
+      "desktopSize": [
+        640,
+        480
+      ],
+      "mobileSize": [
+        640,
+        480
+      ],
+      "changes": "First frame extracted from the source GIF, resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "habitats-rainforest",
+      "subject": "Tropical rainforest",
+      "alt": "热带雨林",
+      "fileTitle": "Tropical rainforest 2, Koh Chang, Thailand.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tropical_rainforest_2,_Koh_Chang,_Thailand.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Tropical_rainforest_2%2C_Koh_Chang%2C_Thailand.jpg",
+      "desktop": "assets/museum/habitats/rainforest/hero-1600.webp",
+      "mobile": "assets/museum/habitats/rainforest/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1067
+      ],
+      "mobileSize": [
+        800,
+        533
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "habitats-desert",
+      "subject": "Desert",
+      "alt": "沙漠",
+      "fileTitle": "Utah Dunes Landscape - West Desert District.jpg",
+      "author": "Bureau of Land Management - Utah/Bob Wick",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Utah_Dunes_Landscape_-_West_Desert_District.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Utah_Dunes_Landscape_-_West_Desert_District.jpg",
+      "desktop": "assets/museum/habitats/desert/hero-1600.webp",
+      "mobile": "assets/museum/habitats/desert/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1051
+      ],
+      "mobileSize": [
+        800,
+        525
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "habitats-rock",
+      "subject": "Rock cliff",
+      "alt": "岩壁",
+      "fileTitle": "(Landscape of rock cliff with unidentified trees in Shirahama, Japan) - DPLA - d3ef21c7d123f9405f0a4775a4bf50c4.jpg",
+      "author": "Carlquist, Sherwin John, 1930-2021",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:(Landscape_of_rock_cliff_with_unidentified_trees_in_Shirahama,_Japan)_-_DPLA_-_d3ef21c7d123f9405f0a4775a4bf50c4.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/%28Landscape_of_rock_cliff_with_unidentified_trees_in_Shirahama%2C_Japan%29_-_DPLA_-_d3ef21c7d123f9405f0a4775a4bf50c4.jpg",
+      "desktop": "assets/museum/habitats/rock/hero-1600.webp",
+      "mobile": "assets/museum/habitats/rock/hero-800.webp",
+      "desktopSize": [
+        1500,
+        2203
+      ],
+      "mobileSize": [
+        800,
+        1175
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "habitats-city",
+      "subject": "Urban night",
+      "alt": "城市建筑",
+      "fileTitle": "Québec city at night, view from Lévis city.jpg",
+      "author": "Wilfredor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Qu%C3%A9bec_city_at_night,_view_from_L%C3%A9vis_city.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Qu%C3%A9bec_city_at_night%2C_view_from_L%C3%A9vis_city.jpg",
+      "desktop": "assets/museum/habitats/city/hero-1600.webp",
+      "mobile": "assets/museum/habitats/city/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1050
+      ],
+      "mobileSize": [
+        800,
+        525
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    },
+    {
+      "id": "habitats-island",
+      "subject": "Galapagos Islands",
+      "alt": "岛屿生态",
+      "fileTitle": "Bright green hills on Galapagos islands.jpg",
+      "author": "Stolz Gary M, U.S. Fish and Wildlife Service",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bright_green_hills_on_Galapagos_islands.jpg",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Bright_green_hills_on_Galapagos_islands.jpg",
+      "desktop": "assets/museum/habitats/island/hero-1600.webp",
+      "mobile": "assets/museum/habitats/island/hero-800.webp",
+      "desktopSize": [
+        1600,
+        1045
+      ],
+      "mobileSize": [
+        800,
+        522
+      ],
+      "changes": "Resized, converted to WebP, and displayed with CSS crop/color treatment."
+    }
+  ]
+}

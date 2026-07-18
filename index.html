@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN" class="museum-mode">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="可交互的壁虎与蜥蜴数字自然博物馆：物种图鉴、身体奥秘与行为实验。" />
+    <title>GECKO ATLAS · 壁虎与蜥蜴数字自然博物馆</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css?v=16" />
+  </head>
+  <body>
+    <header class="museum-nav">
+      <a class="museum-brand" href="#home" aria-label="Gecko Atlas 首页"><i></i><span>GECKO<br>ATLAS</span></a>
+      <nav aria-label="主导航">
+        <a href="#collection">物种图鉴</a><a href="#anatomy">身体奥秘</a><a href="#lab">行为实验室</a><a href="#habitats">栖息地</a><a href="#coexist">保护与共处</a><a href="about.html">关于项目</a>
+      </nav>
+      <div class="nav-actions"><button type="button" data-search-open aria-label="搜索">搜索</button><button class="nav-menu" type="button" aria-label="打开菜单">菜单</button></div>
+    </header>
+
+    <main>
+      <section id="home" class="hero museum-hero" aria-label="互动壁虎捕食实验">
+        <div class="hero__media">
+          <video id="gecko-video" class="hero__video" muted playsinline preload="auto" aria-label="移动昆虫光标，控制壁虎头部转向">
+            <source src="assets/gecko-turn-gop6.mp4" type="video/mp4" />
+          </video>
+          <div class="hero__watermark-mask" aria-hidden="true"></div>
+        </div>
+        <div class="hero-curtain" aria-hidden="true"></div>
+        <div class="hero-museum-copy">
+          <p><span>LIVE SPECIMEN</span> / 行为观察 001</p>
+          <h1>在黑暗中，<br>谁先看见谁？</h1>
+          <div class="hero-instruction"><b>移动昆虫</b><span>观察壁虎如何追踪、警觉与捕食</span></div>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>01</span><small>2026<br>INTERACTIVE ARCHIVE</small></div>
+        <a class="scroll-cue" href="#intro"><span>向下探索</span><i></i></a>
+      </section>
+
+      <section id="intro" class="museum-intro section-pad">
+        <div class="section-kicker"><span>00</span><p>DIGITAL NATURAL HISTORY</p></div>
+        <div class="intro-grid">
+          <h2>一座藏在<br>森林里的<br><em>数字自然博物馆</em></h2>
+          <div class="intro-copy"><p>从脚趾上的微小刚毛，到危险来临时主动断尾；蜥蜴用亿万年的演化，写出一套关于适应、感知与生存的精密语言。</p><p>这里不是静止的百科全书。移动、观察、试验，并让每一次探索留下自己的路径。</p><a href="#collection">进入物种档案 <span>↗</span></a></div>
+        </div>
+        <div class="forest-stats"><div><strong>7,000+</strong><span>已知蜥蜴物种</span></div><div><strong>6</strong><span>核心知识章节</span></div><div><strong>4</strong><span>互动行为实验</span></div><div><strong>∞</strong><span>值得观察的细节</span></div></div>
+      </section>
+
+      <section class="featured-species section-pad" aria-labelledby="today-title">
+        <div class="section-heading"><div><small>SPECIMEN OF THE DAY / 01</small><h2 id="today-title">今日物种</h2></div><p>一种响亮、强壮，也经常被误解的夜行壁虎。</p></div>
+        <article class="feature-stage">
+          <div class="stage-number">01</div><div class="stage-year">GEKKO<br>GECKO</div>
+          <div class="specimen-polaroid"><div class="specimen-art"><picture><source media="(max-width: 620px)" srcset="assets/museum/species/tokay-gecko/hero-800.webp"><img src="assets/museum/species/tokay-gecko/hero-1600.webp" alt="墙面上的蛤蚧" width="1600" height="1067" fetchpriority="high"></picture></div><div class="polaroid-caption"><b>蛤蚧</b><span>TOKAY GECKO · 东南亚</span></div></div>
+          <div class="feature-title"><small>壁虎科 · 夜行 · 树栖</small><h3>森林里的<br>蓝灰色守夜人</h3><button type="button" data-article="tokay">查看物种档案</button></div>
+          <div class="stage-facts"><span>体长 25–35 cm</span><span>昆虫与小型脊椎动物</span><span>CITES 附录 II</span></div>
+        </article>
+      </section>
+
+      <section id="collection" class="collection-section section-pad">
+        <div class="section-kicker"><span>02</span><p>SPECIES COLLECTION</p></div>
+        <div class="section-heading"><div><small>可筛选的数字标本柜</small><h2>物种图鉴</h2></div><p>从壁虎到巨蜥，以科属、栖息地和行为方式重新认识“蜥蜴”。</p></div>
+        <div class="collection-toolbar" role="group" aria-label="物种筛选"><button class="is-active" data-family="all">全部</button><button data-family="gecko">壁虎科</button><button data-family="skink">石龙子科</button><button data-family="iguana">鬣蜥科</button><button data-family="chameleon">避役科</button><button data-family="monitor">巨蜥科</button></div>
+        <div class="species-grid">
+          <article class="species-card" data-family="gecko" data-article="leopard"><div class="species-visual"><span>01</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/leopard-gecko/hero-800.webp"><img src="assets/museum/species/leopard-gecko/hero-1600.webp" alt="豹纹守宫侧面特写" width="1600" height="1067" loading="lazy"></picture></div><small>EUBLEPHARIS MACULARIUS</small><h3>豹纹守宫</h3><p>没有吸盘、拥有可活动眼睑的地栖壁虎。</p><b>壁虎科 · 南亚荒漠</b></article>
+          <article class="species-card" data-family="gecko" data-article="crested"><div class="species-visual"><span>02</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/crested-gecko/hero-800.webp"><img src="assets/museum/species/crested-gecko/hero-1600.webp" alt="树枝上的睫角守宫" width="1600" height="1067" loading="lazy"></picture></div><small>CORRELOPHUS CILIATUS</small><h3>睫角守宫</h3><p>眼上方的冠状突起让它看起来拥有“睫毛”。</p><b>壁虎科 · 新喀里多尼亚</b></article>
+          <article class="species-card" data-family="skink" data-article="blue-tongue"><div class="species-visual"><span>03</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/blue-tongue/hero-800.webp"><img src="assets/museum/species/blue-tongue/hero-1600.webp" alt="草地上的蓝舌石龙子" width="1600" height="1067" loading="lazy"></picture></div><small>TILIQUA</small><h3>蓝舌石龙子</h3><p>用醒目的蓝色舌头制造警告与视觉威慑。</p><b>石龙子科 · 澳大利亚</b></article>
+          <article class="species-card" data-family="iguana" data-article="marine"><div class="species-visual"><span>04</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/marine-iguana/hero-800.webp"><img src="assets/museum/species/marine-iguana/hero-1600.webp" alt="海滩上的海鬣蜥" width="1600" height="907" loading="lazy"></picture></div><small>AMBLYRHYNCHUS CRISTATUS</small><h3>海鬣蜥</h3><p>现存唯一会进入海洋觅食的蜥蜴。</p><b>鬣蜥科 · 加拉帕戈斯</b></article>
+          <article class="species-card" data-family="chameleon" data-article="panther"><div class="species-visual"><span>05</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/panther-chameleon/hero-800.webp"><img src="assets/museum/species/panther-chameleon/hero-1600.webp" alt="枝叶间的豹纹变色龙" width="1600" height="1067" loading="lazy"></picture></div><small>FURCIFER PARDALIS</small><h3>豹纹变色龙</h3><p>变色不仅为了伪装，也是交流与体温调节。</p><b>避役科 · 马达加斯加</b></article>
+          <article class="species-card" data-family="monitor" data-article="komodo"><div class="species-visual"><span>06</span><picture><source media="(max-width: 620px)" srcset="assets/museum/species/komodo-dragon/hero-800.webp"><img src="assets/museum/species/komodo-dragon/hero-1600.webp" alt="林地中的科莫多巨蜥" width="1600" height="1178" loading="lazy"></picture></div><small>VARANUS KOMODOENSIS</small><h3>科莫多巨蜥</h3><p>岛屿生态系统中的大型顶级捕食者。</p><b>巨蜥科 · 印度尼西亚</b></article>
+        </div>
+        <p class="collection-empty" hidden>当前筛选下暂无标本。</p>
+      </section>
+
+      <section id="anatomy" class="anatomy-section section-pad">
+        <div class="section-kicker"><span>03</span><p>ANATOMY & ADAPTATION</p></div>
+        <div class="section-heading"><div><small>微观结构塑造宏观能力</small><h2>身体奥秘</h2></div><p>选择一个结构，打开一页关于演化与适应的视觉注释。</p></div>
+        <div class="anatomy-carousel">
+          <button class="anatomy-card is-featured" data-article="feet"><span>01</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/anatomy/gecko-feet/hero-800.webp"><img src="assets/museum/anatomy/gecko-feet/hero-1600.webp" alt="壁虎脚趾吸附结构" loading="lazy"></picture><small>VAN DER WAALS FORCE</small><h3>脚趾吸附</h3><p>数百万根刚毛如何让壁虎走过天花板？</p></button>
+          <button class="anatomy-card" data-article="tail"><span>02</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/anatomy/lizard-tail/hero-800.webp"><img src="assets/museum/anatomy/lizard-tail/hero-1600.webp" alt="长尾草蜥的尾部" loading="lazy"></picture><small>AUTOTOMY</small><h3>断尾与再生</h3><p>逃生策略背后，有怎样的能量成本？</p></button>
+          <button class="anatomy-card" data-article="vision"><span>03</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/anatomy/gecko-eye/hero-800.webp"><img src="assets/museum/anatomy/gecko-eye/hero-1600.webp" alt="睫角守宫眼睛特写" loading="lazy"></picture><small>NOCTURNAL VISION</small><h3>眼睛与夜视</h3><p>夜间视觉如何帮助壁虎锁定细小猎物？</p></button>
+          <button class="anatomy-card" data-article="color"><span>04</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/anatomy/chameleon-skin/hero-800.webp"><img src="assets/museum/anatomy/chameleon-skin/hero-1600.webp" alt="豹纹变色龙鳞片与皮肤颜色" loading="lazy"></picture><small>CHROMATOPHORES</small><h3>皮肤与变色</h3><p>颜色既是环境，也是体温和情绪的语言。</p></button>
+          <button class="anatomy-card" data-article="tongue"><span>05</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/anatomy/chameleon-tongue/hero-800.webp"><img src="assets/museum/anatomy/chameleon-tongue/hero-1600.webp" alt="变色龙伸舌捕食" loading="lazy"></picture><small>FEEDING</small><h3>舌头与捕食</h3><p>感知、预判、蓄力与出击组成一次捕食。</p></button>
+          <button class="anatomy-card" data-article="temperature"><span>06</span><picture class="anatomy-photo"><source media="(max-width: 620px)" srcset="assets/museum/species/leopard-gecko/hero-800.webp"><img src="assets/museum/species/leopard-gecko/hero-1600.webp" alt="暖色岩面上的豹纹守宫" loading="lazy"></picture><small>THERMOREGULATION</small><h3>体温调节</h3><p>在光照、阴影与活动时间之间寻找热平衡。</p></button>
+        </div>
+      </section>
+
+      <section id="lab" class="lab-section section-pad">
+        <div class="section-kicker"><span>04</span><p>BEHAVIOR LABORATORY</p></div>
+        <div class="lab-heading"><div><small>LEARN BY DOING</small><h2>不要只阅读。<br><em>让行为发生。</em></h2></div><p>每个实验把一种生物学机制转化成可操作的规则。观察反馈、改变变量，再形成自己的解释。</p></div>
+        <div class="lab-list">
+          <a class="lab-row is-live" href="lab.html#predation"><span>01</span><div><small>LIVE NOW</small><h3>捕食追踪</h3></div><p>控制昆虫，测试壁虎的危险距离、预判与攻击。</p><b>进入实验室 ↗</b></a>
+          <a class="lab-row is-live" href="lab.html#adhesion"><span>02</span><div><small>LIVE NOW</small><h3>脚趾吸附</h3></div><p>改变表面、水膜、倾角与负载，观察附着表现。</p><b>开始实验 ↗</b></a>
+          <a class="lab-row is-live" href="lab.html#camouflage"><span>03</span><div><small>LIVE NOW</small><h3>伪装测试</h3></div><p>在不同栖息地中寻找隐藏的蜥蜴并记录反应时间。</p><b>开始实验 ↗</b></a>
+          <a class="lab-row is-live" href="lab.html#thermoregulation"><span>04</span><div><small>LIVE NOW</small><h3>体温管理</h3></div><p>调节光照、阴影与环境温度，维持本轮目标温区。</p><b>开始实验 ↗</b></a>
+        </div>
+      </section>
+
+      <section id="habitats" class="habitat-section section-pad">
+        <div class="section-kicker"><span>05</span><p>HABITAT ATLAS</p></div>
+        <div class="section-heading"><div><small>五种环境，五套生存规则</small><h2>栖息地地图</h2></div><p>气温、湿度、昼夜节律与地表结构，共同决定一种蜥蜴如何生活。</p></div>
+        <div class="habitat-map">
+          <button data-habitat="rainforest" class="is-active"><picture><source media="(max-width: 620px)" srcset="assets/museum/habitats/rainforest/hero-800.webp"><img src="assets/museum/habitats/rainforest/hero-1600.webp" alt="热带雨林景观" loading="lazy"></picture><i></i><span>热带雨林</span><small>高湿 · 垂直生态位</small></button>
+          <button data-habitat="desert"><picture><source media="(max-width: 620px)" srcset="assets/museum/habitats/desert/hero-800.webp"><img src="assets/museum/habitats/desert/hero-1600.webp" alt="沙丘与荒漠景观" loading="lazy"></picture><i></i><span>沙漠</span><small>温差 · 地下庇护</small></button>
+          <button data-habitat="rock"><picture><source media="(max-width: 620px)" srcset="assets/museum/habitats/rock/hero-800.webp"><img src="assets/museum/habitats/rock/hero-1600.webp" alt="海岸岩壁景观" loading="lazy"></picture><i></i><span>岩壁</span><small>吸附 · 裂隙</small></button>
+          <button data-habitat="city"><picture><source media="(max-width: 620px)" srcset="assets/museum/habitats/city/hero-800.webp"><img src="assets/museum/habitats/city/hero-1600.webp" alt="夜间城市建筑" loading="lazy"></picture><i></i><span>城市建筑</span><small>灯光 · 人工热岛</small></button>
+          <button data-habitat="island"><picture><source media="(max-width: 620px)" srcset="assets/museum/habitats/island/hero-800.webp"><img src="assets/museum/habitats/island/hero-1600.webp" alt="加拉帕戈斯群岛绿色山丘" loading="lazy"></picture><i></i><span>岛屿生态</span><small>隔离 · 特有种</small></button>
+        </div>
+        <div class="habitat-readout"><span>01 / 05</span><div><small>RAINFOREST</small><h3>一棵树，就是一座垂直城市。</h3></div><p>树冠、树干与林下拥有不同温湿度。趾垫、保护色与夜间活动，让壁虎能够占据其他动物难以利用的表面。</p></div>
+      </section>
+
+      <section id="coexist" class="coexist-section section-pad">
+        <div class="section-kicker"><span>06</span><p>CONSERVATION & COEXISTENCE</p></div>
+        <div class="coexist-grid"><div><small>SHARE THE HABITAT</small><h2>不是闯入者，<br>而是与你共享<br>夜晚的邻居。</h2><p class="coexist-lead">保护并不只发生在遥远的自然保护区，也发生在一次不开杀虫灯、一次温和转移和一次负责任的购买决定里。</p></div><div class="myth-stack">
+          <article><span>生态 01</span><h3>夜间食物网的一环</h3><p>许多壁虎捕食昆虫，也会成为蛇、鸟与小型哺乳动物的猎物；它们既是捕食者，也是能量传递的节点。</p></article>
+          <article><span>误解 02</span><h3>“家里的壁虎有毒。”</h3><p>常见家栖壁虎通常不会主动攻击人。与任何野生动物一样，不触摸、不投喂并保持卫生，是更可靠的相处方式。</p></article>
+          <article><span>共处 03</span><h3>安全地让它离开</h3><p>关闭室内灯、打开朝外门窗，或使用透明容器和硬纸片温和转移；不要抓尾，也不要使用粘鼠板。</p></article>
+          <article><span>保护 04</span><h3>保留小尺度庇护所</h3><p>减少夜间过度照明与广谱农药，为原生植被、石缝和落叶保留空间，让城市环境仍有可用的微栖息地。</p></article>
+          <article><span>贸易 05</span><h3>拒绝来源不明的野生动物</h3><p>购买前核查合法来源、物种保护等级和可追溯文件，不让一次冲动消费进入非法贸易链。</p><a href="https://cites.org/sites/default/files/eng/cop/18/inf/E-CoP18-Inf-012.pdf" target="_blank" rel="noreferrer">阅读 CITES 蛤蚧贸易资料 ↗</a></article>
+        </div></div>
+      </section>
+
+      <section class="museum-cta section-pad"><small>YOUR FIELD NOTE STARTS HERE</small><h2>下一次看见壁虎时，<br>你会先观察什么？</h2><div><a href="#home">返回互动标本</a><button type="button" data-feedback-open>留下观察反馈</button></div></section>
+    </main>
+
+    <footer class="museum-footer"><a class="museum-brand" href="#home"><i></i><span>GECKO<br>ATLAS</span></a><p>可交互的壁虎与蜥蜴数字自然博物馆<br><small>INTERACTIVE NATURAL HISTORY · 2026</small></p><nav><a href="#collection">物种图鉴</a><a href="#anatomy">身体奥秘</a><a href="#lab">行为实验室</a><a href="#coexist">保护与共处</a><a href="about.html">关于项目</a><a href="credits.html">图片来源与许可</a></nav><button type="button" data-scroll-top>回到顶部 ↑</button></footer>
+
+    <div class="search-overlay" aria-hidden="true"><button data-search-close aria-label="关闭搜索">×</button><div><small>SEARCH THE ARCHIVE</small><label>寻找物种、结构或实验<input type="search" placeholder="例如：断尾、夜视、壁虎科…" autocomplete="off"></label><div class="search-results"></div></div></div>
+    <dialog class="archive-dialog"><button class="dialog-close" type="button" aria-label="关闭">×</button><div class="dialog-index"></div><div class="dialog-body"><small></small><h2></h2><p></p><div class="dialog-meta"></div><a class="dialog-deep-link" href="species.html">阅读重点物种长篇档案 ↗</a><div class="dialog-sources"><small>REFERENCES</small><div></div></div></div></dialog>
+    <div id="insect-cursor-fallback" class="insect-cursor-fallback" aria-hidden="true">🪰</div>
+    <script>(()=>{const f=document.querySelector("#insect-cursor-fallback");addEventListener("pointermove",e=>{f.style.left=`${e.clientX}px`;f.style.top=`${e.clientY}px`},{passive:true})})();</script>
+    <script src="script.js?v=7"></script>
+    <script defer src="cursor.bundle.js?v=11"></script>
+    <script defer src="exploration.js?v=4"></script>
+    <script defer src="game.js?v=10"></script>
+    <script defer src="analytics.js?v=3"></script>
+    <script defer src="museum.js?v=3"></script>
+    <script defer src="experiment-bridge.js?v=1"></script>
+  </body>
+</html>

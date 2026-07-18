@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN" class="museum-mode lab-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gecko Atlas 行为实验室：捕食追踪、脚趾吸附、伪装测试与体温管理。" />
+    <title>行为实验室 · GECKO ATLAS</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css?v=16" />
+  </head>
+  <body>
+    <header class="lab-nav"><a class="museum-brand" href="index.html"><i></i><span>GECKO<br>ATLAS</span></a><nav><a href="#predation">捕食追踪</a><a href="#adhesion">脚趾吸附</a><a href="#camouflage">伪装测试</a><a href="#thermoregulation">体温管理</a><a href="#records">实验记录</a></nav><a href="index.html#lab">← 返回博物馆</a></header>
+    <main>
+      <section class="lab-hero"><div><small>BEHAVIOR LABORATORY / PHASE 5C</small><h1>观察不是答案。<br><em>改变变量，</em><br>再观察一次。</h1></div><p>四个可重复的互动实验，将捕食、附着、伪装与体温调节转化成可以操作、比较和记录的网页行为。所有结果均保存在本地浏览器。</p><div class="lab-hero-index">04<br><small>ACTIVE EXPERIMENTS</small></div></section>
+      <aside class="model-notice"><b>教学模型声明</b><span>本页面用于解释变量之间的关系，不替代真实动物实验、力学测量或物种级结论。</span></aside>
+
+      <section id="predation" class="experiment-section predation-section">
+        <header class="experiment-heading"><span>EXP / 01</span><div><small>PREDATOR–PREY TRACKING</small><h2>捕食追踪</h2></div><p>用昆虫光标进入壁虎危险距离，观察警觉、蓄力、攻击与逃脱。实验会记录连续三次攻击结果。</p></header>
+        <div class="predation-protocol">
+          <div class="protocol-visual"><img src="assets/museum/species/tokay-gecko/hero-1600.webp" alt="蛤蚧观察猎物"><span>LIVE SPECIMEN<br>TRACKING MODE</span></div>
+          <ol><li><b>01</b><div><strong>进入场景</strong><p>移动昆虫靠近壁虎头部，观察警觉度变化。</p></div></li><li><b>02</b><div><strong>改变策略</strong><p>比较静止、普通移动与按住 Shift 冲刺。</p></div></li><li><b>03</b><div><strong>完成三次攻击</strong><p>系统总结逃脱率、捕获次数和实验时长。</p></div></li></ol>
+          <div class="protocol-launch"><small>VARIABLES</small><p>距离 · 移动速度 · 冲刺状态 · 安全区</p><a href="index.html?experiment=predation#home">进入捕食场景 ↗</a></div>
+        </div>
+      </section>
+
+      <section id="adhesion" class="experiment-section adhesion-section">
+        <header class="experiment-heading"><span>EXP / 02</span><div><small>TOE PAD ADHESION</small><h2>脚趾吸附</h2></div><p>改变表面类型、水膜、角度与负载，比较简化教学模型中的附着余量。</p></header>
+        <div class="adhesion-workbench">
+          <div class="adhesion-stage"><div class="surface-plane" data-surface="glass"><div class="lab-gecko"><i></i><i></i><i></i><i></i></div><div class="force-arrow">重力</div></div><div class="adhesion-status"><span>附着余量</span><strong data-adhesion-score>—</strong><b data-adhesion-state>调整变量后开始</b></div></div>
+          <form class="adhesion-controls">
+            <label>表面<select name="surface"><option value="glass">干燥玻璃</option><option value="bark">树皮</option><option value="leaf">叶片</option><option value="ptfe">低表面能材料</option></select></label>
+            <label class="toggle-control"><span>表面有水膜</span><input type="checkbox" name="wet"><i></i></label>
+            <label>倾角 <output data-angle-output>90°</output><input type="range" name="angle" min="0" max="180" value="90"></label>
+            <label>相对负载 <output data-load-output>50%</output><input type="range" name="load" min="20" max="100" value="50"></label>
+            <button type="button" data-record-adhesion>记录本次试验</button>
+            <p>完成 3 次不同条件的记录后生成小结。</p>
+          </form>
+        </div>
+        <div class="trial-strip" data-adhesion-trials><span>TRIAL 01</span><span>TRIAL 02</span><span>TRIAL 03</span></div>
+        <div class="experiment-result" data-adhesion-result hidden></div>
+      </section>
+
+      <section id="camouflage" class="experiment-section camouflage-section">
+        <header class="experiment-heading"><span>EXP / 03</span><div><small>VISUAL SEARCH</small><h2>伪装测试</h2></div><p>在三类栖息地中找出蜥蜴。系统记录发现时间与误点次数；这反映网页视觉搜索任务，不等同于动物视觉。</p></header>
+        <div class="camouflage-workbench">
+          <div class="camouflage-stage" data-camouflage-stage><div class="camouflage-intro"><small>3 ROUNDS / TIMED</small><h3>找到藏在环境里的蜥蜴</h3><p>点击“开始”后计时。每轮背景、目标位置和视觉融合程度都会改变。</p><button type="button" data-camouflage-start>开始测试</button></div><button class="camouflage-target" type="button" aria-label="发现隐藏的蜥蜴"></button><div class="camouflage-hud"><span data-camo-round>ROUND —</span><b data-camo-time>0.0s</b><span data-camo-misses>误点 0</span></div></div>
+          <div class="camouflage-guide"><small>HOW TO READ THE RESULT</small><h3>更久，并不意味着“眼力差”。</h3><p>目标大小、位置、明暗对比、显示器和注意状态都会影响时间。请比较自己在不同背景中的相对变化。</p><div data-camouflage-result></div></div>
+        </div>
+      </section>
+
+      <section id="thermoregulation" class="experiment-section thermo-section">
+        <header class="experiment-heading"><span>EXP / 04</span><div><small>BEHAVIORAL THERMOREGULATION</small><h2>体温管理</h2></div><p>移动到光照或阴影中，并调节环境条件，让教学模型连续 12 秒保持在本轮任务温区。</p></header>
+        <div class="thermo-workbench">
+          <div class="thermo-stage" data-thermo-stage>
+            <div class="thermo-sun" aria-hidden="true"></div><div class="thermo-shade" aria-hidden="true"></div>
+            <div class="thermo-gecko" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div class="thermo-scale"><span>阴影</span><span>斑驳光</span><span>日照</span></div>
+            <div class="thermo-readout"><small>MODEL BODY TEMPERATURE</small><strong data-thermo-temp>24.0°C</strong><span data-thermo-state>等待开始</span></div>
+          </div>
+          <form class="thermo-controls">
+            <div class="thermo-challenge"><small>THIS ROUND</small><h3 data-thermo-target>目标温区 29–33°C</h3><p>这是网页任务生成的目标区间，不代表所有蜥蜴或任何物种的固定偏好温度。</p></div>
+            <label>环境温度 <output data-ambient-output>22°C</output><input type="range" name="ambient" min="15" max="38" value="22"></label>
+            <label>日照强度 <output data-sun-output>65%</output><input type="range" name="sun" min="0" max="100" value="65"></label>
+            <label>蜥蜴位置 <output data-position-output>35%</output><input type="range" name="position" min="0" max="100" value="35"></label>
+            <div class="thermo-progress"><span><i data-thermo-progress></i></span><b data-thermo-time>稳定 0.0 / 12.0 秒</b></div>
+            <button type="button" data-thermo-start>开始本轮</button>
+          </form>
+        </div>
+        <div class="experiment-result thermo-result" data-thermo-result hidden></div>
+      </section>
+
+      <section id="records" class="experiment-section records-section"><header class="experiment-heading"><span>DATA</span><div><small>LOCAL LAB NOTEBOOK</small><h2>实验记录</h2></div><p>结果仅保存在当前浏览器，并同步计入首页 Phase 4 数据面板。</p></header><div class="lab-records" data-lab-records></div><button type="button" data-clear-lab>清除实验记录</button></section>
+
+      <section class="lab-references"><div><small>RESEARCH BASIS</small><h2>研究依据</h2></div><ol><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC129431/" target="_blank" rel="noreferrer">Autumn et al. — Evidence for van der Waals adhesion in gecko setae ↗</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3631644/" target="_blank" rel="noreferrer">Stark et al. — Surface wettability and gecko adhesion underwater ↗</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9262901/" target="_blank" rel="noreferrer">Higham et al. — Gecko attachment on wet and rough substrates ↗</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5411296/" target="_blank" rel="noreferrer">Behavioral thermoregulation in leopard geckos ↗</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3639756/" target="_blank" rel="noreferrer">Thermoregulation and habitat use across lizards ↗</a></li></ol></section>
+    </main>
+    <footer class="credits-footer"><p>GECKO ATLAS · INTERACTIVE BEHAVIOR LAB</p><a href="index.html">返回数字自然博物馆 ↑</a></footer>
+    <script src="analytics.js?v=3"></script>
+    <script src="lab.js?v=2"></script>
+  </body>
+</html>

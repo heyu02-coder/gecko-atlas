@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN" class="museum-mode about-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gecko Atlas 项目背景、设计过程、技术实现、素材来源与数据隐私。" />
+    <title>关于项目 · GECKO ATLAS</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css?v=16" />
+  </head>
+  <body>
+    <header class="about-nav"><a class="museum-brand" href="index.html"><i></i><span>GECKO<br>ATLAS</span></a><a href="index.html">← 返回数字博物馆</a></header>
+    <main>
+      <section class="about-hero"><div><small>PROJECT FILE / 2026</small><h1><span>从一个互动镜头，</span><span>到一座</span><em>数字自然博物馆。</em></h1></div><p>Gecko Atlas 将实时 3D 昆虫、视频切帧、行为状态机、开放授权影像和科普内容组织在同一个可探索的网站里。这里记录它为什么被设计，以及它如何工作。</p></section>
+
+      <section class="about-section">
+        <div class="about-heading"><div><small class="about-kicker">01 / PROJECT BACKGROUND</small><h2>项目目标</h2></div><p>项目最初用于验证“鼠标移动能否成为生物行为叙事的一部分”。随着捕食、探索、反馈与科普模块加入，它被重构为一个兼顾公众学习、交互设计实验和求职作品集表达的数字自然博物馆。</p></div>
+        <div class="about-grid">
+          <article><span>INTERACTION</span><h3>让阅读变成观察</h3><p>昆虫不是装饰光标，而是会改变危险距离、壁虎警觉度、攻击结果与实验数据的可控对象。</p></article>
+          <article><span>EDUCATION</span><h3>把机制变成变量</h3><p>脚趾吸附、伪装与体温管理被转换为可重复操作的教学模型，并明确标注模型边界。</p></article>
+          <article><span>PORTFOLIO</span><h3>展示完整决策链</h3><p>不仅呈现最终画面，也公开信息架构、素材许可、状态机、本地数据与性能取舍。</p></article>
+        </div>
+      </section>
+
+      <section class="about-section about-light">
+        <div class="about-heading"><div><small class="about-kicker">02 / INFORMATION ARCHITECTURE</small><h2>内容结构</h2></div><p>六个章节形成从吸引注意、建立知识，到动手实验和理解保护责任的完整路径；访客也可以通过全站搜索直接进入任意档案或实验。</p></div>
+        <div class="about-grid">
+          <article><span>01</span><h3>互动首页</h3><p>壁虎追踪昆虫、危险距离、攻击与探索入口。</p></article>
+          <article><span>02</span><h3>物种图鉴</h3><p>壁虎科、石龙子科、鬣蜥科、避役科与巨蜥科。</p></article>
+          <article><span>03</span><h3>身体奥秘</h3><p>吸附、断尾、夜视、变色、捕食和体温调节。</p></article>
+          <article><span>04</span><h3>行为实验室</h3><p>四个可重复实验与本地实验记录。</p></article>
+          <article><span>05</span><h3>栖息地地图</h3><p>雨林、沙漠、岩壁、城市与岛屿生态。</p></article>
+          <article><span>06</span><h3>保护与共处</h3><p>生态价值、误解、居家共处、保护与贸易责任。</p></article>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <div class="about-heading"><div><small class="about-kicker">03 / TECHNICAL SYSTEM</small><h2>技术实现</h2></div><p>网站保持无框架、可静态部署的结构。媒体、交互、实验和数据各自解耦；失去 WebGL 时仍会显示可跟随指针的降级光标。</p></div>
+        <div class="architecture-flow">
+          <article><small>INPUT</small><h3>Pointer Events</h3><p>水平位移驱动视频目标时间，同时向昆虫跟随、冲刺和危险距离系统提供坐标。</p></article>
+          <article><small>VISUAL</small><h3>Video + Three.js</h3><p>排队 seek 保持视频响应；FBX 昆虫独立渲染，组件以局部枢轴执行振翅与腿部步态。</p></article>
+          <article><small>BEHAVIOR</small><h3>Finite State Machine</h3><p>稳定追踪、警觉、蓄力、攻击、命中、逃脱与冷却由状态和阈值控制。</p></article>
+          <article><small>DATA</small><h3>Local Analytics</h3><p>探索结局、反馈和实验结果只写入当前浏览器 localStorage，可查看、导出或清除。</p></article>
+        </div>
+      </section>
+
+      <section class="about-section about-light">
+        <div class="about-heading"><div><small class="about-kicker">04 / MODEL & MEDIA</small><h2>模型与素材</h2></div><p>FBX 模型没有依赖预制动画。组件经几何位置复核后，由代码建立局部旋转轴；网站照片仅使用可确认的开放许可证，并保留作者与原始页面。</p></div>
+        <div class="about-grid">
+          <article><span>WINGS</span><h3>独立翅膀组件</h3><p><code>part_13</code> 与 <code>part_14</code> 分别建立翅根枢轴，镜像振动并加入轻微相位差。</p></article>
+          <article><span>LEGS</span><h3>代码驱动步态</h3><p><code>part_0</code>、<code>part_1</code>、<code>part_3</code>、<code>part_4</code>、<code>part_5</code>、<code>part_8</code> 随移动速度显示交替步态。</p></article>
+          <article><span>LICENSES</span><h3>开放授权登记</h3><p>使用 Public Domain、CC0、CC BY 或 CC BY-SA 素材。<a href="credits.html">查看完整图片署名页 ↗</a></p></article>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <div class="about-heading"><div><small class="about-kicker">05 / PRIVACY & ACCESSIBILITY</small><h2>数据与边界</h2></div><p>这个项目不需要账户，也没有远程行为分析服务。教学模型用于解释变量关系，不替代真实动物实验、饲养建议或物种级生理结论。</p></div>
+        <div class="about-grid">
+          <article><span>LOCAL ONLY</span><h3>数据留在浏览器</h3><p>实验记录、互动统计和反馈使用本地存储；清除浏览器站点数据即可移除。</p></article>
+          <article><span>RESILIENT</span><h3>渐进增强</h3><p>视频有首帧等待与 seek 队列，3D 模型加载失败时显示轻量降级光标，内容页面仍可阅读。</p></article>
+          <article><span>RESPONSIVE</span><h3>桌面与移动端</h3><p>图片提供 800 与 1600 像素 WebP 版本，非首屏延迟加载；信息布局在窄屏降为单列。</p></article>
+        </div>
+      </section>
+
+      <section class="about-section about-light">
+        <div class="about-heading"><div><small class="about-kicker">06 / PHASE 5D DELIVERY</small><h2>作品集交付</h2></div><p>核心网站、四个实验和首批素材之外，Phase 5D 已补齐重点物种长篇档案、分布地图、案例研究、README 与设备测试矩阵。下一阶段只处理公开部署与线上验证。</p></div>
+        <div class="about-grid">
+          <article><span>CASE STUDY</span><h3>设计过程</h3><p>问题定义、关键迭代、状态机、技术架构与内容责任已整理为完整案例研究。</p></article>
+          <article><span>FOCUS SPECIES</span><h3>档案深度</h3><p>蛤蚧、海鬣蜥和科莫多巨蜥拥有独立长篇页面、示意分布地图与逐条来源。</p></article>
+          <article><span>PHASE 6</span><h3>公开部署</h3><p>正式域名、HTTPS、缓存策略、线上性能测试与可分享 Demo 链接留到下一阶段。</p></article>
+        </div>
+      </section>
+
+      <section class="about-cta"><h2>继续进入森林，<br>完成一份自己的观察记录。</h2><div><a href="index.html#home">进入互动标本</a><a href="lab.html">打开行为实验室</a></div></section>
+    </main>
+    <footer class="credits-footer"><p>GECKO ATLAS · PROJECT FILE</p><a href="credits.html">图片来源与许可 ↗</a></footer>
+  </body>
+</html>
