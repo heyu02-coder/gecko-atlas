@@ -62,22 +62,33 @@ node tools/browser-smoke-test.js chrome
 
 预期结果：全部 PASS，无缺失资源、禁用的 `video.play()` 调用或控制台错误。
 
-## Phase 6C 前置条件
+## Phase 6D：自定义域名
 
-进入 Vercel 预览部署前需要确认：
+计划注册的根域名为 `gecko-atlas-hy.com`，个人作为域名实名认证及 ICP 备案主体。
 
-1. 使用 GitHub 账号 `heyu02-coder` 登录 Vercel
-2. 从 GitHub 导入 `gecko-atlas`
-3. Framework Preset 选择 `Other`
-4. 保持项目根目录，不设置构建命令
-5. 生成 `.vercel.app` 预览地址后复测响应头、视频 Range 和跨地区访问
+- `www.gecko-atlas-hy.com`：全球站，绑定 Vercel Production
+- `gecko-atlas-hy.com`：跳转到 `www.gecko-atlas-hy.com`
+- `cn.gecko-atlas-hy.com`：保留给后续中国大陆备案镜像，不指向 Vercel
 
-## 尚未执行
+只需购买一次根域名。`www` 与 `cn` 均为购买根域名后创建的免费 DNS 子域名。
 
-- Vercel 项目导入
-- `.vercel.app` 预览部署
-- 自定义域名购买与 DNS
-- 中国三网访问测试
-- 中国大陆镜像与 ICP 备案
+### 个人备案一致性要求
 
-这些事项属于 Phase 6B 及之后的阶段。
+- 腾讯云账号实名认证、域名所有者和 ICP 备案主体必须为同一位个人
+- 姓名、证件类型与证件号码必须一致
+- 域名实名认证通过并同步至管局后，再提交 ICP 备案
+- 备案需要账号内符合要求的中国大陆云资源
+- 备案通过后，在大陆镜像页脚展示备案号并链接工信部备案系统
+
+### DNS 分工
+
+域名继续使用腾讯云 DNSPod 管理，不切换到 Vercel Nameserver。完成购买后，根据 Vercel 项目 Domains 页面给出的实时记录配置全球站；不要提前硬编码可能变化的 CNAME 或 A 记录。
+
+## 当前待办
+
+- 在腾讯云购买并完成 `gecko-atlas-hy.com` 个人实名认证
+- 将根域名和 `www` 添加到 Vercel，配置规范域名跳转
+- 在腾讯云 DNSPod 添加 Vercel 要求的验证与解析记录
+- 购买符合备案要求的中国大陆云资源
+- 提交个人 ICP 首次备案
+- 部署 `cn` 中国大陆镜像并执行中国三网访问测试
