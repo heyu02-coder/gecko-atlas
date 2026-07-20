@@ -4,7 +4,7 @@
 
 项目把视频时间轴、Three.js FBX 昆虫、行为状态机、科普图鉴、开放授权影像和本地实验数据组织在一个无需后端即可运行的网站中。它既是公众科普体验，也是一份展示交互设计、前端工程和内容系统能力的作品集项目。
 
-在线体验：[gecko-atlas.vercel.app](https://gecko-atlas.vercel.app)
+在线体验：[gecko.gongheyu-ai.com](https://gecko.gongheyu-ai.com)
 
 ## 作者与联系
 
@@ -129,4 +129,4 @@ node tools/browser-smoke-test.js chrome
 
 ## 下一阶段
 
-公开部署被明确留到 Phase 6。该阶段将处理正式域名、HTTPS、缓存策略、静态托管配置、线上性能监控和可分享 Demo 链接；本阶段不执行部署。
+全球站部署、自定义项目子域名与 HTTPS 已完成。下一阶段为个人 ICP 首次备案和中国大陆镜像；备案通过前继续由 Vercel 全球站提供公开 Demo。

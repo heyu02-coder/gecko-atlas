@@ -62,15 +62,16 @@ node tools/browser-smoke-test.js chrome
 
 预期结果：全部 PASS，无缺失资源、禁用的 `video.play()` 调用或控制台错误。
 
-## Phase 6D：自定义域名
+## Phase 6D：自定义域名（已完成）
 
-计划注册的根域名为 `gecko-atlas-hy.com`，个人作为域名实名认证及 ICP 备案主体。
+根域名为 `gongheyu-ai.com`，作为 HEYU 求职作品集及多个项目的统一入口；个人作为域名实名认证及 ICP 备案主体。
 
-- `www.gecko-atlas-hy.com`：全球站，绑定 Vercel Production
-- `gecko-atlas-hy.com`：跳转到 `www.gecko-atlas-hy.com`
-- `cn.gecko-atlas-hy.com`：保留给后续中国大陆备案镜像，不指向 Vercel
+- `gongheyu-ai.com`：保留给个人作品集总站
+- `www.gongheyu-ai.com`：保留给个人作品集总站
+- `gecko.gongheyu-ai.com`：Gecko Atlas 全球站，已绑定 Vercel Production
+- `cn-gecko.gongheyu-ai.com`：预留给备案后的中国大陆镜像
 
-只需购买一次根域名。`www` 与 `cn` 均为购买根域名后创建的免费 DNS 子域名。
+Gecko Atlas 当前正式地址为 <https://gecko.gongheyu-ai.com>。DNSPod 使用 Vercel 分配的项目专属 CNAME，Vercel 域名验证、HTTPS 证书、主页响应和视频 Range 请求均已通过。
 
 ### 个人备案一致性要求
 
@@ -82,13 +83,21 @@ node tools/browser-smoke-test.js chrome
 
 ### DNS 分工
 
-域名继续使用腾讯云 DNSPod 管理，不切换到 Vercel Nameserver。完成购买后，根据 Vercel 项目 Domains 页面给出的实时记录配置全球站；不要提前硬编码可能变化的 CNAME 或 A 记录。
+域名继续使用腾讯云 DNSPod 管理，不切换到 Vercel Nameserver。`gecko` 当前通过 CNAME 指向 Vercel；根域名与 `www` 暂不占用，等待作品集总站部署。
 
-## 当前待办
+## Phase 6E：ICP 备案与大陆资源（进行中）
 
-- 在腾讯云购买并完成 `gecko-atlas-hy.com` 个人实名认证
-- 将根域名和 `www` 添加到 Vercel，配置规范域名跳转
-- 在腾讯云 DNSPod 添加 Vercel 要求的验证与解析记录
-- 购买符合备案要求的中国大陆云资源
-- 提交个人 ICP 首次备案
-- 部署 `cn` 中国大陆镜像并执行中国三网访问测试
+- 等待域名实名认证信息同步至备案系统（通常约 3 天）
+- 在同一实名认证腾讯云账号购买符合备案条件的中国大陆资源
+- 推荐轻量应用服务器：中国大陆节点、包年包月、购买时长至少 3 个月，备案期间剩余有效期至少 1 个月
+- 在腾讯云 ICP 备案控制台提交个人首次备案
+- 个人网站名称使用与内容一致的中文名称，不直接使用域名、纯英文或个人姓名
+- 收到工信部短信后在 24 小时内完成短信核验
+- 审核通过前不把大陆镜像子域名解析到中国大陆服务器
+
+## Phase 6F：大陆镜像（备案通过后）
+
+- 将同一套静态发布包部署到腾讯云中国大陆节点
+- 为 `cn-gecko.gongheyu-ai.com` 添加大陆源站解析与 HTTPS
+- 在页面底部展示 ICP 备案号并链接工信部备案系统
+- 执行中国电信、联通、移动三网及桌面/移动端回归测试
