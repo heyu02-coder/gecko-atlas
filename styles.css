@@ -870,6 +870,9 @@ button { color: inherit; }
 .museum-footer p small { font: 7px/1 monospace; letter-spacing: .12em; }
 .museum-footer nav { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; color: rgb(237 240 232 / 62%); font-size: 10px; }
 .museum-footer > button { border: 0; color: var(--moss); background: transparent; font-size: 10px; cursor: pointer; }
+.filing-bar { grid-column: 1 / -1; padding-top: 24px; border-top: 1px solid rgb(255 255 255 / 8%); text-align: center; }
+.filing-link { color: rgb(237 240 232 / 58%); font: 9px/1.6 monospace; letter-spacing: .06em; transition: color .2s ease; }
+.filing-link:hover { color: var(--moss-bright); }
 
 .search-overlay { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 24px; background: rgb(4 9 6 / 96%); opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 220ms ease, visibility 220ms; }
 .search-overlay.is-visible { opacity: 1; visibility: visible; pointer-events: auto; }
@@ -995,7 +998,7 @@ html:not(.hero-visible) .tongue-layer { opacity: 0 !important; visibility: hidde
 .credits-policy { display: grid; grid-template-columns: 1fr 1fr; gap: 9vw; padding: 100px max(24px, calc((100vw - 1320px) / 2)); background: #d9ddd1; color: #142018; }
 .credits-policy h2 { margin: 14px 0 0; font: 400 clamp(48px, 6vw, 84px)/.98 Georgia, "Noto Serif SC", serif; letter-spacing: -.055em; }
 .credits-policy p { color: #4f5e54; font-size: 12px; line-height: 1.9; }
-.credits-footer { display: flex; justify-content: space-between; padding: 44px clamp(24px, 5vw, 76px); color: var(--muted); font-size: 10px; }
+.credits-footer { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 44px clamp(24px, 5vw, 76px); color: var(--muted); font-size: 10px; }
 .credits-footer a { color: var(--moss); }
 
 @media (max-width: 760px) {
